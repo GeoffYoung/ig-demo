@@ -5802,6 +5802,7 @@ body {
   color: #ffffff;
 }
 .banner h1 a:hover {
+  text-decoration: none;
   text-shadow: 0 0 5px #000000;
 }
 @media (min-width: 768px) {
