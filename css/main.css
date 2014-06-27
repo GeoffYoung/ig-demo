@@ -5869,6 +5869,10 @@ body {
   padding: 0.4em;
   box-shadow: 0 2px 4px rgba(100, 100, 100, 0.5);
 }
+.agency-links .card h4,
+.latest-reports .card h4 {
+  line-height: 1.3em;
+}
 .agency-links a:hover,
 .latest-reports a:hover {
   text-decoration: none;
