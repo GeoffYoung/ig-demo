@@ -7,6 +7,15 @@ var tall = function(boxes) {
   boxes.height(maxHeight);
 };
 
-// var boxes = $('.agency-links .card');
+
 tall( $('.agency-links .card h4') );
 tall( $('.latest-reports .card h4') );
+
+$('form').submit(function(){
+  var input =  $(this).find('input')[0];
+  if($(input).val() === '') {
+    alert("The search field can't be empty");
+    $(input).focus();
+    return false;
+  }
+});
