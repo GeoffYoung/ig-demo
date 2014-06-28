@@ -21,14 +21,18 @@ body {
   background: #EEE;
   font-family: 'Source Sans Pro', 'sans serif';
 }
-a, a:hover, a:active, a:focus {
-  outline: 0;
+
+h1, h2, h3, h4 {
+  font-weight: 100;
 }
 
 a {
   color: darken(@brand-red, 5%);
   &:hover {
     color: lighten(@brand-red, 5%)
+  }
+  &, &:hover, &:active, &:focus {
+    outline: 0;
   }
 }
 

@@ -2460,17 +2460,23 @@ body {
   background: #EEE;
   font-family: 'Source Sans Pro', 'sans serif';
 }
-a,
-a:hover,
-a:active,
-a:focus {
-  outline: 0;
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 100;
 }
 a {
   color: #cc5741;
 }
 a:hover {
   color: #d67b69;
+}
+a,
+a:hover,
+a:active,
+a:focus {
+  outline: 0;
 }
 .content-block {
   padding: 2em 0;
